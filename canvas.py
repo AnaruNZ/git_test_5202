@@ -72,7 +72,7 @@ def line_pattern():
     y1 = 10
     x2 = 300
     y2 = 10
-    for i in range (35):
+    for i in range (10):
         canvas.create_line(x1, y1, x2, y2, fill=get_random_color())
         y1 += 5
         y2 += 5
